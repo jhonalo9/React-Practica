@@ -6,9 +6,10 @@ import './App.css';
 import { Navbar } from './components/Navbar';
 import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 import { Proveedores } from './components/Proveedores';
-import { Articulos } from './components/Articulos';
+
 import { Ventas } from './components/Ventas';
-import { Clientes } from './components/Clientes';
+import  Clientes  from './components/Clientes';
+import Articulos from './components/Articulos';
 
 function App() {
   return (
