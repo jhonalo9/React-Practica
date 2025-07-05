@@ -1,14 +1,33 @@
 {
   "proveedores": [
-    { "id": 1, "nombre": "Proveedor A", "ruc": "20123456789" },
-    { "id": 2, "nombre": "Proveedor B", "ruc": "20987654321" }
+    {
+      "id": "1",
+      "nombre": "Proveedor A",
+      "ruc": "20123456789"
+    },
+    {
+      "id": "2",
+      "nombre": "Proveedor B",
+      "ruc": "20987654321"
+    }
   ],
   "articulos": [
-    { "id": 1, "nombre": "Artículo A", "precio": 10 },
-    { "id": 2, "nombre": "Artículo B", "precio": 15 }
+    {
+      "id": "1",
+      "nombre": "Artículo A",
+      "precio": 10
+    },
+    {
+      "id": "2",
+      "nombre": "Artículo B",
+      "precio": 15
+    }
   ],
   "clientes": [
-    { "id": 1, "nombre": "Cliente A", "correo": "a@email.com" },
-    { "id": 2, "nombre": "Cliente B", "correo": "b@email.com" }
+    {
+      "id": "2",
+      "nombre": "Cliente B",
+      "correo": "b@email.com"
+    }
   ]
 }

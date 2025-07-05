@@ -9,3 +9,15 @@ export const getClientes = () =>
       return await res.json();
     },
   });
+
+
+
+
+export const createCliente = (cliente: Omit<Cliente, 'id'>) =>
+  alovaInstance.Post('/clientes', cliente);
+
+export const updateCliente = (cliente: Cliente) =>
+  alovaInstance.Put(`/clientes/${cliente.id}`, cliente);
+
+export const deleteCliente = (id: number) =>
+  alovaInstance.Delete(`/clientes/${id}`);
